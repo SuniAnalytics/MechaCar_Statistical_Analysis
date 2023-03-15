@@ -67,13 +67,12 @@
 
    Majority of the consumers will be keen on comparing cars from different companies during the buying process. It is critical to assess and quantify how Mechacar will perform against the competetion. 
 
-### What metric or metrics are you going to test?
+## Metrics to test
 
-### What is the null hypothesis or alternative hypothesis?
+### Hyphothesis 
 
-### What statistical test would you use to test the hypothesis? And why?
+### Statistical test to validate the hypothesis
 
-### What data is needed to run the statistical test?
-
+### Data requires to run the statistical tests
 
 
