@@ -9,12 +9,18 @@
 ## Linear Regression to Predict MPG
 
 ### Variables that provided a non-random amount of variance to mpg
-
+     Basaed on the p-value of each varaible from the linear regression model results suggest that below 
+     variables provide a non-random amount of variance to mpg. (p-values < significance level of 0.05)
+     
+     1. Vehicle length (p-Value 5.08e-08)
+     2. Vehicle weight (p-Value 0.0776)
+     3. Ground clearance (p-Value 5.21e-08)
+     
 ### Slope of the linear model
-      The p-Value for this model, p-Value: 5.35e-11, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further indcates that the slope of this linear model is not zero.
+      The p-Value for this model is 5.35e-11, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further indcates that the slope of this linear model is not zero.
 
 ### Does this model predict mpg effectively
-      This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, his multiple regression model does predict mpg of MechaCar prototypes effectively.
+      This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, this multiple regression model does predict mpg of MechaCar prototypes effectively.
 
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/Linear%20Regression%20to%20Predict%20MPG.png)
 
