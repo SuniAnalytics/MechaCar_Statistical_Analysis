@@ -47,12 +47,12 @@
 
 ## T-Tests on Suspension Coils
 
-   Ran T-tests to analyzed if each lot individually are diff from population mean of 1500 pounds per sq inch. 
+   Ran T-tests to analyzed if each lot individually are diff from population mean of 1500 PSI
       
      - Lot1: Got a tvalue of 0, which infers that this matches the null hypothesis and this lot is not diff 
-               to population mean of 1500 pounds per sq inch
+               to population mean of 1500 pounds PSI
 
-     - Lot2: Got a tvalue of 0.51745, which means the lot is close to the mean of 1500 pounds per sq inch
+     - Lot2: Got a tvalue of 0.51745, which means the lot is close to the mean of 1500 PSI
      
      - Lot3: Got a very high value for tvalue (-2.09), this lot is prominently different from the mean.
      
@@ -64,3 +64,16 @@
 
 
 ## Study Design: MechaCar vs Competition
+
+   Majority of the consumers will be keen on comparing cars from different companies during the buying process. It is critical to assess and quantify how Mechacar will perform against the competetion. 
+
+### What metric or metrics are you going to test?
+
+### What is the null hypothesis or alternative hypothesis?
+
+### What statistical test would you use to test the hypothesis? And why?
+
+### What data is needed to run the statistical test?
+
+
+
