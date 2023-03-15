@@ -31,14 +31,23 @@
     
     Does it meet..
     By lot?
-    Say about box plot. 
 
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/Total_summery.png)
 
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summery.png)
 
-![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/boxplot_by_lots.png)
 
 ## T-Tests on Suspension Coils
+
+   Does all mfg lots and each lot individually are diff from population mean of 1500 pounds per sq inch. 
+   
+   
+
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/boxplot_by_lots.png)
+
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_lot1.png)
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_lot2.png)
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_lot3.png)
+
 
 ## Study Design: MechaCar vs Competition
