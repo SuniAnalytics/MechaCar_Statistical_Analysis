@@ -27,6 +27,17 @@
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/Linear%20Regression%20to%20Predict%20MPG.png)
 
 ## Summary Statistics on Suspension Coils
+    As per design spec, variance of suspension coils must not exceed 100 pounds per square inch. 
+    
+    Does it meet..
+    By lot?
+    Say about box plot. 
+
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/Total_summery.png)
+
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summery.png)
+
+![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/boxplot_by_lots.png)
 
 ## T-Tests on Suspension Coils
 
