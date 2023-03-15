@@ -69,18 +69,22 @@
    Majority of the consumers will be keen on comparing cars from different companies during the buying process. It is critical to assess and quantify how Mechacar will perform against the competetion. 
 
 ### Metrics to test
-     Below are the key metrics using which MechaCar will be assessed vs the competetion. 
+     Below are the key metrics using which MechaCar will be assessed vs the competetion based on data from past 5 years. They will be used as independant variables.
      - Cost of the car
      - Fuel efficiency 
      - Cost of ownership
      - Safety ratings
 
 ### Hyphothesis 
-
-
+   Below is the hypothesis for Car Price
+   
+   - Null Hypothesis: MechaCar is priced corrrectly compared to the competetors
+   - Alternative Hypothesis: MechaCar is NOT priced correclty based on some of the key metrics
 
 ### Statistical test to validate the hypothesis
 
-### Data requires to run the statistical tests
+  Running a multiple linear regression model using the above mentioned metrics will provide details on whether the pricing is correct depending on available metrics and also will help understand which metrics play a significant predictable role to influnce the pricing decision.
 
-
+### Data required to run the statistical tests
+       
+   Require data from multiple car makers from the past 5 years to run the regression model.
