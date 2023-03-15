@@ -35,7 +35,7 @@
       
       Overall, suspension coils met the design spec variance levels.
 
-     When analyzed by lot, 
+     When analyzed by each lot, 
       - Lot1 meets the design specs with significantly lower variance (0.9)
       - Lot2 also meets the design specs with significantly lower variance (7.46)
       - Lot3 however doesnt meet the design spec requirements as the variance is higher than 100 (170.2)
@@ -47,10 +47,15 @@
 
 ## T-Tests on Suspension Coils
 
-   Does all mfg lots and each lot individually are diff from population mean of 1500 pounds per sq inch. 
-   
-   
+   Ran T-tests to analyzed if each lot individually are diff from population mean of 1500 pounds per sq inch. 
+      
+     - Lot1: Got a tvalue of 0, which infers that this matches the null hypothesis and this lot is not diff 
+               to population mean of 1500 pounds per sq inch
 
+     - Lot2: Got a tvalue of 0.51745, which means the lot is close to the mean of 1500 pounds per sq inch
+     
+     - Lot3: Got a very high value for tvalue (-2.09), this lot is prominently different from the mean.
+     
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/boxplot_by_lots.png)
 
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/ttest_lot1.png)
