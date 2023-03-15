@@ -47,8 +47,10 @@
 
 ## T-Tests on Suspension Coils
 
-   Ran T-tests to analyzed if each lot individually are diff from population mean of 1500 PSI
+   Ran T-tests to analyzed if all or each lot individually are diff from population mean of 1500 PSI
       
+     - All Mfg Lots: 
+     
      - Lot1: Got a tvalue of 0, which infers that this matches the null hypothesis and this lot is not diff 
                to population mean of 1500 pounds PSI
 
