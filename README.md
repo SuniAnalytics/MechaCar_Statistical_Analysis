@@ -13,8 +13,7 @@
      variables provide a non-random amount of variance to mpg. (p-values < significance level of 0.05)
      
      1. Vehicle length (p-Value 5.08e-08)
-     2. Vehicle weight (p-Value 0.0776)
-     3. Ground clearance (p-Value 5.21e-08)
+     2. Ground clearance (p-Value 5.21e-08)
      
 ### Slope of the linear model
       The p-Value for this model is 5.35e-11, is much smaller than the assumed significance level of 0.05%. 
@@ -49,14 +48,14 @@
 
    Ran T-tests to analyzed if all or each lot individually are diff from population mean of 1500 PSI
       
-     - All Mfg Lots: 
+     - All Mfg Lots: With a pvalue of 0.06, there is not enough evidence to reject the null hypothesis.
      
-     - Lot1: Got a tvalue of 0, which infers that this matches the null hypothesis and this lot is not diff 
-               to population mean of 1500 pounds PSI
+     - Lot1: With a pvalue of 1, null hypothesis cant be rejected as the there is no difference between mean and population mean (1500)
 
-     - Lot2: Got a tvalue of 0.51745, which means the lot is close to the mean of 1500 PSI
+     - Lot2: Pvalue of 0.61 and mean of 1500.02, this lot is very close to the mean of 1500 PSI
      
-     - Lot3: Got a very high value for tvalue (-2.09), this lot is prominently different from the mean.
+     - Lot3: With a p-value of 0.04 which is significantly lower than 0.05, this infers to reject the null hypothesis
+     
      
 ![](https://github.com/SuniAnalytics/MechaCar_Statistical_Analysis/blob/main/Resources/boxplot_by_lots.png)
 
@@ -69,9 +68,16 @@
 
    Majority of the consumers will be keen on comparing cars from different companies during the buying process. It is critical to assess and quantify how Mechacar will perform against the competetion. 
 
-## Metrics to test
+### Metrics to test
+     Below are the key metrics using which MechaCar will be assessed vs the competetion. 
+     - Cost of the car
+     - Fuel efficiency 
+     - Cost of ownership
+     - Safety ratings
 
 ### Hyphothesis 
+
+
 
 ### Statistical test to validate the hypothesis
 
